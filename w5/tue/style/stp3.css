@@ -1,0 +1,34 @@
+body{margin:0;
+    padding: 0;
+}
+
+.topNav{
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+
+}
+
+.topNav__logo{
+    /* width: 200px; */
+    height: 36px;
+}
+
+.topNav__buttons {
+    display: flex;
+gap: 16px;
+}
+
+.topNav__button{
+    font-family: 'Lobster Two', cursive;
+    color: white;
+    text-transform: capitalize;
+}
+
+.topNav__button > a {
+    color: white;
+    text-decoration: none;
+}
