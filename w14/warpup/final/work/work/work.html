@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="style/work.css"
+    />
+
+    <title>w14 work</title>
+  </head>
+  <body>
+    <div>
+      <div class="section nav">
+        <div class="container">
+          <div class="wrapper">
+            <div class="nav__logo">흥부놀부</div>
+            <div class="nav__menuWapper">
+              <div class="nav__menu">흥부</div>
+              <div class="nav__menu">놀부</div>
+              <div class="nav__menu">제비</div>
+              <div class="nav__menu">박</div>
+            </div>
+            <div class="nav__menuWapper">
+              <div class="nav__menu">
+                흥부의 박
+              </div>
+              <div class="nav__menu button">
+                놀부의 박
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main>
+        <img src="assets/흥놀.jpg" alt="" />
+      </main>
+
+      <div class="containerbox">
+        <div id="box1" class="box">
+          <img src="assets/흥놀.jpg" alt="" />
+        </div>
+        <div id="box2" class="box">box2</div>
+        <div id="box3" class="box">box3</div>
+        <div id="box4" class="box">box4</div>
+      </div>
+
+      <script>
+        let boxes =
+          document.querySelectorAll(".box");
+        boxes.forEach((box) => {
+          box.onclick = function () {
+            box.classList.toggle("box--clicked");
+          };
+        });
+      </script>
+      <div class="name">
+        <h3>흥부 놀부 제비 박</h3>
+      </div>
+      <p>
+        옛날에 흥부와 놀부라는 형제가 살고
+        있었어요 형님인 놀부는 부자였지만, 아우인
+        흥부는 무척 가난했지요.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Fugit numquam cupiditate
+        optio exercitationem, eum id officia?
+        Sint, voluptate impedit? Inventore
+        perferendis iusto doloremque maxime at
+        autem itaque eos. Unde, accusantium?
+      </p>
+    </div>
+  </body>
+</html>

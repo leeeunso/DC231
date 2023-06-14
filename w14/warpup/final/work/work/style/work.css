@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100dvh;
+
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-family: "Lucida Sans",
+    "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana,
+    sans-serif;
+}
+
+main {
+  margin-inline: auto;
+  /* padding-inline: 32px;
+    max-width: 70ch; */
+  width: min(70ch, 100% - 2 * 32px);
+}
+
+img,
+svg,
+video,
+iframe {
+  display: block;
+  max-width: 100%;
+}
+
+.nav .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-family: EF_jejudoldam;
+}
+.nav__menuWapper {
+  display: flex;
+  gap: 24px;
+  align-items: baseline;
+}
+
+.nav {
+  background-color: rgb(107, 70, 48);
+  color: rgb(244, 226, 184);
+  font-weight: 700;
+}
+
+img,
+svg,
+video,
+iframe {
+  display: block;
+  max-width: 100%;
+}
+
+.containerbox {
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12.5rem;
+  aspect-ratio: 1/1;
+
+  transition: background-color 250ms ease-in-out;
+  padding-top: 24px;
+  padding-bottom: 1.5rem;
+}
+
+.box:hover {
+  background-color: rgb(162, 198, 133);
+}
+
+.box--clicked {
+  background-color: rgb(244, 226, 184);
+}
+
+.box--clicked:hover {
+  background-color: white;
+}
+
+.name {
+  background-color: rgb(122, 74, 11);
+  display: flex;
+
+  padding-right: 24px;
+  padding-left: 24px;
+
+  font-family: EF_jejudoldam;
+}

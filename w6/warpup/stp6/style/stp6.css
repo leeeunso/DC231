@@ -9,7 +9,6 @@
 }
 
 .container {
-  /* background-color: green; */
   --variableName: 24px;
   max-width: calc(1200px + 2 * var(--variableName));
   margin-inline: auto;
@@ -18,7 +17,6 @@
 
 .wrapper {
   padding-block: 64px;
-  /* background-color: blue; */
 }
 
 .button {
