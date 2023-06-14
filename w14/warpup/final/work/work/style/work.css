@@ -76,8 +76,6 @@ iframe {
   aspect-ratio: 1/1;
 
   transition: background-color 250ms ease-in-out;
-  padding-top: 24px;
-  padding-bottom: 1.5rem;
 }
 
 .box:hover {
@@ -91,13 +89,22 @@ iframe {
 .box--clicked:hover {
   background-color: white;
 }
-
+/* 
 .name {
-  background-color: rgb(122, 74, 11);
-  display: flex;
-
-  padding-right: 24px;
-  padding-left: 24px;
-
   font-family: EF_jejudoldam;
+} */
+
+.title {
+  font-family: EF_jejudoldam;
+  font-size: larger;
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  color: rgb(56, 36, 25);
+}
+
+.video {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
 }
