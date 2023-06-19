@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="style/stp4.css"
+    />
+    <script
+      src="script/progressBar.js"
+      defer
+    ></script>
+    <!-- <script
+      src="script/onClickBtn.js"
+      defer
+    ></script> -->
+    <!-- <script
+      src="script/scrollReactBtn.js"
+      defer
+    ></script> -->
+    <script
+      src="script/noHistoryScrollReactBtn.js"
+      defer
+    ></script>
+    <title>최종임</title>
+  </head>
+  <header>
+    <div class="wrapper1">
+      <div class="section nav">
+        <div class="container">
+          <div class="wrapper2">
+            <div class="nav__logo">흥부놀부</div>
+            <div class="nav__menuWapper">
+              <div class="nav__menu">흥부</div>
+              <div class="nav__menu">놀부</div>
+              <div class="nav__menu">제비</div>
+              <div class="nav__menu">박</div>
+            </div>
+            <div class="nav__menuWapper">
+              <div class="nav__menu">
+                흥부의 박
+              </div>
+              <div class="nav__menu button">
+                놀부의 박
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <body>
+    <div class="stickyWrapper">
+      <main>
+        <section id="section1">
+          <div class="title1">
+            <div class="wrapper">
+              <div class="title">
+                <img
+                  src="assets/흥놀.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="section2">
+          <div class="wrapper">
+            <div class="title2">
+              <h2>흥부놀부 이야기</h2>
+            </div>
+            <center>
+              <div class="containerbox">
+                <div id="box1" class="box">
+                  <img
+                    src="assets/흥부아저씨.jpg"
+                    alt=""
+                  />
+                </div>
+                <div id="box2" class="box">
+                  <img
+                    src="assets/놀부아저씨.jpg"
+                    alt=""
+                  />
+                </div>
+                <div id="box3" class="box">
+                  <img
+                    src="assets/제비.jpg"
+                    alt=""
+                  />
+                </div>
+                <div id="box4" class="box">
+                  <img
+                    src="assets/바악.jpg"
+                    alt=""
+                  />
+                </div>
+                <script>
+                  let boxes =
+                    document.querySelectorAll(
+                      ".box"
+                    );
+                  boxes.forEach((box) => {
+                    box.onclick = function () {
+                      box.classList.toggle(
+                        "box--clicked"
+                      );
+                    };
+                  });
+                </script>
+              </div>
+            </center>
+          </div>
+        </section>
+
+        <section id="section3">
+          <div class="wrapper">
+            <div class="title3">
+              <h2>줄거리</h2>
+            </div>
+            <img
+              src="assets/줄거리1.jpg"
+              alt=""
+            />
+            <div class="story">
+              <p>
+                옛날에 욕심쟁이 형 놀부와 착한
+                동생 흥부가 살았어요 부모님이
+                돌아가시자 놀부는 재산을 모두
+                차지하고 동생 흥부를 내쫒았어요.
+                오두막으로 쫒겨난 흥부는 늘
+                가난했어요. 가난한 흥부는 쌀이라도
+                빌리려고 형님 놀부의 집으로
+                찾아갔지만 놀부의 아내는 밥풀 묻은
+                주걱으로 흥부의 뺨을 때려서
+                쫒아보냈어요. 흥부는 뺨에 묻은
+                밥풀을 떼어먹으며 터덜터덜 집으로
+                돌아갔지요.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="section4">
+          <div class="wrapper">
+            <img
+              src="assets/줄거리2.jpg"
+              alt=""
+            />
+            <div class="story">
+              <p>
+                어느 봄날 커다란 구렁이 한 마리가
+                흥부네 처마에 있던 제비집을
+                덮쳤어요. 이를 본 흥부가 막대기로
+                구렁이를 쫒아주었지요 그런데 새끼
+                제비 한 마리가 땅에 떨어져 다리가
+                부러지고 말았어요. 흥부는 붕대로
+                제비 다리를 잘 매주었어요. 이듬해
+                봄 흥부네 집에 제비 한 쌍이
+                날아왔어요. 제비는 흥부에게 박씨를
+                물어다 주었지요. 흥부는 담 밑에 그
+                박씨를 심었어요. 가을이 되자
+                지붕위에 커다란 박이 주렁주렁
+                열렸어요.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="section5">
+          <div class="wrapper">
+            <img
+              src="assets/줄거리3.jpg"
+              alt=""
+            />
+            <div class="story">
+              <p>
+                흥부네 식구는 톱을 빌려서 박을
+                타기 시작했어요. 첫 번째 박에서는
+                쌀이 가득 나왔어요! 두 번째
+                박에서는 금은보화와 비단이, 세
+                번째 박에서는 목수들이 나와
+                기와집을 지어주었어요.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="section6">
+          <div class="wrapper">
+            <img
+              src="assets/줄거리4.jpg"
+              alt=""
+            />
+            <div class="story">
+              <p>
+                한편 이 소식을 들은 놀부는 제비를
+                잡아 다리를 부러뜨리고는 다시
+                고쳐주었어요. 이듬해 제비가 박씨를
+                물어다주자 놀부는 싱글벙글 웃으며
+                지붕에 심었지요. 가을이 되자
+                놀부네 집에도 커다락 박이 주렁주렁
+                열렸어요.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="section7">
+          <div class="wrapper">
+            <img
+              src="assets/줄거리5.jpg"
+              alt=""
+            />
+            <div class="story">
+              <p>
+                놀부의 첫 번째 박이 쩍 갈라지면서
+                누런 똥물이 쏟아져 나왔어요. 두
+                번째 박에서는 도깨비가 나와 놀부와
+                가족들을 방망이로 때렸어요. 세
+                번째 박에서는 도둑들이 나와 모든
+                물건을 훔쳐갔어요.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="section8">
+          <div class="wrapper">
+            <img
+              src="assets/줄거리6.jpg"
+              alt=""
+            />
+            <div class="story">
+              <p>
+                놀부는 하루아침에 거지신세가
+                되었어요 착한 흥부가 이 소식을
+                듣고 한달음에 달려왔어요. 놀부는
+                잘못을 쿠게 뉘우치고 흥부와
+                시이좋게 살았답니다.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <aside>
+        <h2 class="hide">links to each pages</h2>
+        <ol>
+          <a href="#section1">
+            <li>page1</li>
+          </a>
+          <a href="#section2">
+            <li>page2</li>
+          </a>
+          <a href="#section3">
+            <li>page3</li>
+          </a>
+          <a href="#section4">
+            <li>page4</li>
+          </a>
+          <a href="#section5">
+            <li>page5</li>
+          </a>
+          <a href="#section6">
+            <li>page6</li>
+          </a>
+          <a href="#section7">
+            <li>page7</li>
+          </a>
+          <a href="#section8">
+            <li>page8</li>
+          </a>
+        </ol>
+      </aside>
+      <div class="progressBar">
+        <div class="indicator"></div>
+      </div>
+    </div>
+    <footer>
+      <div class="wrapper">
+        <div class="title8">
+          <h2>영상으로 보기</h2>
+        </div>
+        <div class="video">
+          <style></style>
+          <iframe
+            width="1000"
+            height="500"
+            src="https://www.youtube.com/embed/llUu8W0563o"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
