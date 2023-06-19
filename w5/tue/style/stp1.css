@@ -22,13 +22,6 @@ body{margin:0;
 gap: 16px;
 }
 
-.topNav__button{
-    font-family: 'Lobster Two', cursive;
-    color: white;
-    text-transform: capitalize;
-}
-
-.topNav__button > a {
-    color: white;
-    text-decoration: none;
+.topNav__button{color: white;
+text-transform: capitalize;
 }
