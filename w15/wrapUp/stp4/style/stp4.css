@@ -1,5 +1,7 @@
-@import "theme.dark.css" (prefers-color-scheme: dark);
-@import "theme.light.css" (prefers-color-scheme: light);
+@import "theme.dark.css"
+  (prefers-color-scheme: dark);
+@import "theme.light.css"
+  (prefers-color-scheme: light);
 *,
 *::before,
 *::after {
@@ -72,11 +74,11 @@ iframe {
   font-family: EF_jejudoldam;
 }
 
-.section2 {
+/* .section2 {
   display: flex;
   justify-content: center;
   gap: 1rem;
-}
+} */
 
 .box {
   display: flex;
@@ -125,7 +127,7 @@ section:nth-of-type(odd) {
 
 main {
   z-index: 1;
-  grid-column: 1/span 2;
+  grid-column: 1 / span 2;
   grid-row: 1;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -175,7 +177,8 @@ aside ol li::before {
   width: 1rem;
   height: 1rem;
   margin-top: 0.125rem;
-  transition: border-color 150ms ease-out, background-color 150ms ease-out;
+  transition: border-color 150ms ease-out,
+    background-color 150ms ease-out;
   border: 0.125rem solid var(--onSurface);
   border-radius: 999999999px;
 }
@@ -206,7 +209,7 @@ aside a {
   position: sticky;
   z-index: 2;
   top: 0;
-  grid-column: 1/span 2;
+  grid-column: 1 / span 2;
   grid-row: 1;
   width: 100%;
   height: 1rem;
@@ -290,7 +293,8 @@ footer .wrapper {
 
 .story {
   font-size: medium;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
 }
 
 @media (max-width: 600px) {
@@ -301,28 +305,5 @@ footer .wrapper {
 @media (min-width: 1000px) {
   .mobile {
     display: none;
-  }
-}
-@keyframes wiggle {
-  0%, 7% {
-    transform: rotateZ(0);
-  }
-  15% {
-    transform: rotateZ(-15deg);
-  }
-  20% {
-    transform: rotateZ(10deg);
-  }
-  25% {
-    transform: rotateZ(-10deg);
-  }
-  30% {
-    transform: rotateZ(6deg);
-  }
-  35% {
-    transform: rotateZ(-4deg);
-  }
-  40%, 100% {
-    transform: rotateZ(0);
   }
 }
